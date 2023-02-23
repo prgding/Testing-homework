@@ -32,7 +32,16 @@ input[type=text], input[type=password] {
     border-radius: 5px;
 }
 input[type=submit] {
-    display: block;
+    margin: 30px auto;
+    padding: 5px 20px;
+    border-radius: 10px;
+    /*登陆背景框*/
+    background-color: #2985e2;
+    /*登陆按钮*/
+    color: #f8f6f6;
+    cursor: pointer;
+}
+input[type=button] {
     margin: 30px auto;
     padding: 5px 20px;
     border-radius: 10px;

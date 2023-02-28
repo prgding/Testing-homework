@@ -3,11 +3,10 @@ function CheckItem(form) {
 	const phoneNumber = form.tele.value.trim();
 	if (!phoneRegex.test(phoneNumber)) {
 		alert("电话号码格式不正确");
-		window.location = "index.html"
 	} else {
-		window.location = "success.html"
+		alert("验证通过!");
 	}
-	return true;
+	Clear();
 }
 
 function showRules() {

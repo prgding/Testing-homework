@@ -9,6 +9,7 @@ h1 {
     text-align: center;
     color: #ffffff;
 }
+
 p {
     color: #ffffff;
 }
@@ -19,18 +20,21 @@ form {
     padding: 60px;
     text-align: center;
 }
+
 label, input[type=submit] {
     display: inline-block;
     width: 100px;
     margin-right: 20px;
     text-align: right;
 }
+
 input[type=text], input[type=password] {
     width: 300px;
     margin: 5px;
     padding: 5px 10px;
     border-radius: 5px;
 }
+
 input[type=submit] {
     margin: 30px auto;
     padding: 5px 20px;
@@ -41,6 +45,7 @@ input[type=submit] {
     color: #f8f6f6;
     cursor: pointer;
 }
+
 input[type=button] {
     margin: 30px auto;
     padding: 5px 20px;
